@@ -67,7 +67,7 @@ The `bamboo` class serves as a single "point of entry" for the module.
 class { 'bamboo':
   version      => '5.9.7',
   installdir   => '/opt/bamboo',
-  home         => '/var/local/bamboo',
+  homedir      => '/var/local/bamboo',
   user         => 'bamboo',
   java_home    => '/over/the/rainbow/java',
   download_url => 'https://mirrors.example.com/atlassian/bamboo',
