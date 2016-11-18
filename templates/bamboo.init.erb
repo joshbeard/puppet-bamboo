@@ -19,6 +19,9 @@ export JAVA_HOME=<%= @java_home %>
 export CATALINA_HOME=<%= @appdir %>
 SHUTDOWN_WAIT=<%= @shutdown_wait %>
 
+if [ -f /etc/sysconfig/bamboo ]; then
+    . /etc/sysconfig/bamboo
+fi
 
 function restart() {
   stop
