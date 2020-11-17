@@ -1,10 +1,8 @@
 # puppet-bamboo
 
-__NOTICE:__ This project is dormant and looking for a new owner.
-If you would like to assume the role of maintaining this project, please get in
-touch with <josh@joshbeard.me>
-
-Otherwise, please seek alternative modules: <https://forge.puppet.com/modules?utf-8=%E2%9C%93&page_size=25&sort=rank&q=bamboo>
+__NOTICE:__ This project has been deprecated! The
+[pest/bamboo](https://forge.puppet.com/modules/pest/bamboo)
+module is an updated, maintained, and quality fork.
 
 ---
 
